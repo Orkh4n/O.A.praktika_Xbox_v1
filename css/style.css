@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+   
+}
+a{
+    text-decoration: none;
+    
+}
+*{
+    color: white;
+
+}
+/* header */
+.oxmain{
+    width: 1400px;
+    min-height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.oxheader{
+    width: 100%;
+    height: 60px;
+    background: #373A3C;
+    color: #FFFFFF;
+  
+}
+.list{
+    position: absolute;
+    left: 547px;
+    top: 21px;
+    margin: 0;
+}
+.list li{
+    display: inline-flex;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.list li:hover{
+    color: #8DD83D;
+    transform: scale(1.1);
+}
+
+.search{
+    width: 210px;
+    height: 38px;
+    position: absolute;
+    top: 11px;
+    right: 290px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: black;
+}
+.mybox{
+    width: 117px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    right: 167px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    line-height: 16px;
+   
+}
+.mybox img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.oxlogo{
+    width: 96px;
+    height: 29px;
+    position: absolute;
+    top: 15px;
+    left: 163px;
+}
+/* body */
+
+.oxcontainer{
+    width: 100%;
+    height: 640px;
+    background-image: url(../img/Star-Wars-Battlefront-II-combat.png);
+    position: relative;
+}
+.oxcontainer h3{
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    position: absolute;
+    top: 206px;
+    left: 831px;
+}
+.oxcontainer p{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    position: absolute;
+    top: 243px;
+    left: 831px;
+}
+.oxcont_btn{
+    width: 297px;
+    height: 38px;
+    position: absolute;
+    top: 406px;
+    left: 831px;
+}
+.btn_store{
+    width: 138px;
+    height: 38px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn_store:hover{
+    background: #8DD83D;
+    cursor: pointer;
+}
+.oxhighlight{
+    width: 1400px;
+    height: 800px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    margin: 0 auto;
+    position: relative;
+}
+
+.text_center{
+    width: 449px;
+    height: 180px;
+    position: absolute;
+    top: 64px;
+    left: 476px;
+    text-align: center;
+ 
+}
+.text_center h2{
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+.text_center p{
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+}
+/* cards */
+.oxcards{
+    width: 318px;
+    height: 420px;
+    background: #FFFFFF;
+    margin: 283px 70px 0 70px;
+    float: left;
+    text-align:left;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.oxcards:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.oxcards img{
+    margin-bottom: 16px;
+}
+.oxcards h3{
+    font-size: 21px;
+    line-height: 28px;
+    margin: 0 0 38px 22px;
+    color: #435766;
+
+}
+.oxcards p{
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 22px;
+    color: #435766;
+}
+.oxcards button{
+    width: 278px;
+    height: 60px;
+    background: #8DD83D;
+    border-radius: 4px;
+    margin-left: 21px;
+}
+.oxcards button:hover{
+    background:#435766;
+    color: white;
+    cursor: pointer;
+}
+
+    /* game */
+.game_section{
+    width: 1400px;
+    height: 880px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(../img/Rectangle.png);
+    text-align: center;
+    padding:97px 0 0 50px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.game_section .oxcards{
+    margin: 96px 17px 0 0;
+}
+.game_section .oxcards p{
+    margin-bottom: 105px;
+}
+.game_section .btn_store{
+    position: absolute;
+    bottom: 24px;
+    left: 630px;
+}
+/* desing */
+.oxdesing{
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url(../img/Rectangle2.png);
+    position: relative;
+}
+.oxinto_desing{
+    width: 540px;
+    height: 240px;
+    position: absolute;
+    top: 114px;
+    left: 166px;
+}
+.oxinto_desing h2{
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+.oxinto_desing p{
+    font-size: 24px;
+    line-height: 20px;
+    
+}
+.oxinto_desing button{
+    width: 207;
+    height: 40px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    margin-top: 35px;
+    transition: 0.5s;
+}
+.oxinto_desing button:hover{
+    background: #8DD83D;
+    cursor: pointer;
+    color:#435766 ;
+}
+/* footer */
+.oxfooter{
+    width: 1400px;
+    height: 395px;
+    margin: 0 auto;
+    background: #373A3C;
+    padding: 58px 0 0 165px;
+    box-sizing: border-box;
+    position: relative;
+}
+.foot_list{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.foot_list li{
+    margin:0 270px 35px 0;
+    font-size: 14px;
+    font-weight: 100;
+}
+.foot_list li:first-child{
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+
+}
+.social{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    right: 270px;
+    text-align: center;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+.social p{
+    font-size: 18px;
+    line-height: 21px;
+    color: #7DD42F;
+  
+
+}
+.social a{
+    margin:0 5px;
+}
+.foot_end{
+    width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    border-top:1px solid #FFFFFF;
+}
